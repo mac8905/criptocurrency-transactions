@@ -72,3 +72,16 @@ Las transacciones de 3 usuarios son las siguientes:
 1. Install dependencies `yarn`
 2. Transpile the code `yarn build`
 3. Start app `yarn start`
+
+## Glossary
+
+- charge: cobro
+- purchase: compra
+- rate: tarifa
+- transactions: compra o venta
+- units / quantity: unidades
+- units earned: unidades ganadas
+
+## Send email to
+
+Fernando <fcruz@arkusnexus.com>

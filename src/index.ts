@@ -1,12 +1,8 @@
-import express from 'express';
+import 'reflect-metadata';
+import { server } from './core/server';
 
-const app = express();
 const port = 3000;
 
-app.get('/health', (_req, res) => {
-  res.status(200).send('Ok');
-});
-
-app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`);
-});
+server
+  .build()
+  .listen(port, () => console.log(`Listen on http://localhost:${port}/`));
